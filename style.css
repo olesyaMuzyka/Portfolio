@@ -94,6 +94,12 @@ h3 {
 .primary-link:hover {
   color: #fbe8a6;
 }
+#link-name {
+  text-align: center;
+}
+.github-link {
+  text-decoration: none;
+}
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 45px;
