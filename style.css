@@ -38,6 +38,21 @@ h3 {
   line-height: 2;
   font-size: 24px;
 }
+.about-section {
+  background: #fbe8a6;
+  padding: 150px 20px 100px 20px;
+  text-align: center;
+}
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-size: 46px;
+}
+#my-photo {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
 
 .contact-link {
   background: var(--branding-color);
@@ -59,6 +74,19 @@ h3 {
   padding: 20px 15px;
   margin: 30px;
   text-decoration: none;
+}
+.project-link {
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 20px 30px;
+  margin: 30px;
+  text-decoration: none;
+}
+.project-link:hover {
+  color: var(--secondary-color);
 }
 .contact-link:hover {
   color: var(--secondary-color);
@@ -118,5 +146,14 @@ h3 {
   }
   .hero h3 {
     font-size: 18px;
+  }
+  .about-section {
+    padding: 100px;
+  }
+  .about-section h1 {
+    font-size: 36px;
+  }
+  .about-section h2 {
+    font-size: 25px;
   }
 }
