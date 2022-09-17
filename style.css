@@ -51,6 +51,10 @@ h3 {
   background: var(--secondary-color);
   padding: 150px 20px 100px 20px;
 }
+.certificate-section {
+  background: #b4dfe5;
+  padding: 150px 20px 100px 20px;
+}
 #my-photo {
   display: block;
   margin: auto;
@@ -171,6 +175,9 @@ h3 {
   }
   .content-section {
     text-align: center;
+    padding: 100px;
+  }
+  .certificate-section {
     padding: 100px;
   }
 }
