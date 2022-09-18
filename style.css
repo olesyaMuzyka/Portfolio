@@ -55,6 +55,9 @@ h3 {
   background: #b4dfe5;
   padding: 150px 20px 100px 20px;
 }
+.contact-section {
+  font-family: var(--default-font-family);
+}
 #my-photo {
   display: block;
   margin: auto;
