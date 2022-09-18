@@ -168,10 +168,13 @@ h3 {
     padding: 100px;
   }
   .about-section h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
   .about-section h2 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .about-section p {
+    font-size: 15px;
   }
   .website-link {
     text-align: center;
