@@ -52,7 +52,7 @@ h3 {
   padding: 150px 20px 100px 20px;
 }
 .certificate-section {
-  background: #b4dfe5;
+  background: #fbe8a6;
   padding: 150px 20px 100px 20px;
 }
 .contact-section {
@@ -62,7 +62,27 @@ h3 {
 #contact-photo {
   max-width: 50%;
 }
-
+.contact-box {
+  background-color: #fbe8a6;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box h3 {
+  font-family: var(--default-font-family);
+  font-size: 25px;
+}
+.contact-box h4 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+#contact-button {
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  padding: 15px 15px;
+}
+#contact-button:hover {
+  color: #fbe8a6;
+}
 .contact-link,
 .about-link,
 .project-link {
@@ -121,7 +141,19 @@ h3 {
   font-family: var(--default-font-family);
   font-weight: bold;
 }
-
+.social-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: #b4dfe5;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.social-link a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 45px;
