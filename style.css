@@ -58,7 +58,12 @@ h3 {
 .contact-section {
   font-family: var(--default-font-family);
 }
-
+#my-photo {
+  max-width: 50%;
+}
+#contact-photo {
+  max-width: 50%;
+}
 .contact-link {
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
