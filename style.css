@@ -58,13 +58,14 @@ h3 {
 .contact-section {
   font-family: var(--default-font-family);
 }
-#my-photo {
-  max-width: 50%;
-}
+#my-photo,
 #contact-photo {
   max-width: 50%;
 }
-.contact-link {
+
+.contact-link,
+.about-link,
+.project-link {
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
@@ -75,31 +76,8 @@ h3 {
   text-decoration: none;
 }
 
-.about-link {
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 20px 15px;
-  margin: 30px;
-  text-decoration: none;
-}
-.project-link {
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 20px 30px;
-  text-decoration: none;
-}
-.project-link:hover {
-  color: var(--secondary-color);
-}
-.contact-link:hover {
-  color: var(--secondary-color);
-}
+.project-link:hover,
+.contact-link:hover,
 .about-link:hover {
   color: var(--secondary-color);
 }
@@ -175,9 +153,7 @@ h3 {
   .about-section p {
     font-size: 15px;
   }
-  #translation-link {
-    text-align: center;
-  }
+  #translation-link,
   #app-link {
     text-align: center;
   }
